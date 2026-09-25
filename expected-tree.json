@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-09-25T01:01:11+00:00",
+  "packages": {
+    "iniconfig": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "hashes": [
+        "sha256:2d91e135bf72d31a410b17c16da610a82628a64b4e5ea4c93ca90a45a8dc37f0",
+        "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374"
+      ],
+      "marker": null,
+      "optional": false,
+      "python_versions": "",
+      "source": "registry",
+      "source_detail": {
+        "specifier": "==2.0.0",
+        "type": "registry",
+        "url": "https://pypi.org/simple"
+      },
+      "version": "2.0.0"
+    },
+    "packaging": {
+      "dependencies": [
+        "pyparsing"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "hashes": [
+        "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb",
+        "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4592950a9e9a6f50bddee00"
+      ],
+      "marker": null,
+      "optional": false,
+      "python_versions": "",
+      "source": "registry",
+      "source_detail": {
+        "note": "resolved via === arbitrary equality (PEP 440); exact version string '21.3' matched",
+        "specifier": "===21.3",
+        "type": "registry",
+        "url": "https://pypi.org/simple"
+      },
+      "version": "21.3"
+    },
+    "pyparsing": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "hashes": [
+        "sha256:bbb170f840105f879f1c0f64bca2b4fd1a7e2030b3e3e10fc24bf97f7e3e1a2b",
+        "sha256:91b5e7c056bc62f8f30f02db0030e6d6e5e686ce9654c12e1b7c27f5b965f4f2"
+      ],
+      "marker": null,
+      "optional": false,
+      "python_versions": "",
+      "source": "registry",
+      "source_detail": {
+        "type": "registry",
+        "url": "https://pypi.org/simple"
+      },
+      "version": "3.3.3"
+    }
+  },
+  "pm": "uv",
+  "pm_version_tested": "0.12.19",
+  "project_metadata": {
+    "extras": {},
+    "groups": [
+      "main"
+    ],
+    "optional_groups": [],
+    "python_constraint": ">=3.11"
+  },
+  "root": {
+    "dependencies": [
+      "iniconfig",
+      "packaging"
+    ],
+    "name": "arbitrary-equality-probe",
+    "version": "0.1.0"
+  },
+  "schema_version": "1.0",
+  "source_file": "pyproject.toml",
+  "warnings": [
+    "lockfile omits resolution-markers and supported-markers (uv 0.12.19 preview feature: omit-unused-resolution-settings); all packages are unconditional",
+    "packaging resolved via PEP 440 arbitrary equality operator ===21.3 (uv 0.12.19 bug fix); Mend must match version string '21.3' exactly without normalization"
+  ]
+}
